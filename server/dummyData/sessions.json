@@ -1,6 +1,6 @@
 [
   {
-    "_id": { "$oid": "6544868aa720b4a4727609b6" },
+    "_id": "6544868aa720b4a4727609b6",
     "title": "Opening Keynote [AI2849K]",
     "labels": ["In-person", "Livestream"],
     "description": "It’s a new age for GitHub. Join our CEO Thomas Dohmke and special guests for a stirring, high velocity keynote as we fundamentally redefine what it means to be a software development platform in the age of AI.",
@@ -9,42 +9,34 @@
         "name": "Thomas Dohmke",
         "role": "CEO",
         "company": "GitHub",
-        "_id": { "$oid": "6544868aa720b4a4727609b7" }
+        "_id": "6544868aa720b4a4727609b7"
       },
       {
         "name": "Kedasha Kerr",
         "role": "Developer Advocate",
         "company": "GitHub",
-        "_id": { "$oid": "6544868aa720b4a4727609b8" }
+        "_id": "6544868aa720b4a4727609b8"
       },
       {
         "name": "Allison Weins",
         "role": "Senior Product Manager",
         "company": "GitHub",
-        "_id": { "$oid": "6544868aa720b4a4727609b9" }
+        "_id": "6544868aa720b4a4727609b9"
       },
       {
         "name": "Colin Merkel",
         "role": "Software Engineer",
         "company": "GitHub",
-        "_id": { "$oid": "6544868aa720b4a4727609ba" }
+        "_id": "6544868aa720b4a4727609ba"
       }
     ],
     "tracks": ["AI", "Developer Experience", "Security"],
     "type": "Keynote",
     "level": "Level 100: Introductory",
-    "schedule": { "day": "2023-11-08", "time": "9:00 AM – 9:45 AM PST" },
-    "likedBy": {
-      "654dcd3dc92d8d352d3d035a": true,
-      "65557260efba53168d7bcf62": true
-    },
-    "scheduledBy": { "654dcd3dc92d8d352d3d035a": true },
-    "createdAt": { "$date": { "$numberLong": "1698989706800" } },
-    "updatedAt": { "$date": { "$numberLong": "1703857025280" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "9:00 AM – 9:45 AM PST" }
   },
   {
-    "_id": { "$oid": "65448c17a720b4a4727609d4" },
+    "_id": "65448c17a720b4a4727609d4",
     "title": "GitHub Copilot: the AI pair programmer for today and tomorrow [AI2713M]",
     "labels": ["In-person", "Livestream"],
     "description": "While a lot of the talk around AI in 2023 has been about possibilities, the world's adoption of GitHub Copilot has become a reality. Millions of developers and tens of thousands of organizations have chosen the AI developer tool to increase productivity. The reason? We think it boils down to impact. Join VPs of Product Management, Ryan J. Salva and Shuyin Zhao, and a variety of guest speakers, as they discuss the seismic shift in software development caused by GitHub Copilot, along with the latest developments in AI-assisted programming that will elevate the developer experience for years to come..",
@@ -53,44 +45,39 @@
         "name": "Ryan J. Salva",
         "role": "VP, Product Management",
         "company": "GitHub",
-        "_id": { "$oid": "65448c17a720b4a4727609d5" }
+        "_id": "65448c17a720b4a4727609d5"
       },
       {
         "name": "Shuyin Zhao",
         "role": "VP, Product Management",
         "company": "GitHub",
-        "_id": { "$oid": "65448c17a720b4a4727609d6" }
+        "_id": "65448c17a720b4a4727609d6"
       },
       {
         "name": "Harald Kirschner",
         "role": "Principal Product Manager",
         "company": "Microsoft",
-        "_id": { "$oid": "65448c17a720b4a4727609d7" }
+        "_id": "65448c17a720b4a4727609d7"
       },
       {
         "name": "Alexander Androncik",
         "role": "Sr. Director Software Development",
         "company": "AMD",
-        "_id": { "$oid": "65448c17a720b4a4727609d8" }
+        "_id": "65448c17a720b4a4727609d8"
       },
       {
         "name": "Schocke Daniel A",
         "role": "Technical Architect",
         "company": "Accenture",
-        "_id": { "$oid": "65448c17a720b4a4727609d9" }
+        "_id": "65448c17a720b4a4727609d9"
       }
     ],
     "tracks": ["AI"],
     "type": "Main Stage",
-    "schedule": { "day": "2023-11-08", "time": "10:15 AM – 10:55 AM PST" },
-    "likedBy": {},
-    "scheduledBy": { "65557260efba53168d7bcf62": true },
-    "createdAt": { "$date": { "$numberLong": "1698991127083" } },
-    "updatedAt": { "$date": { "$numberLong": "1700612271523" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "10:15 AM – 10:55 AM PST" }
   },
   {
-    "_id": { "$oid": "65448ce8a720b4a4727609f8" },
+    "_id": "65448ce8a720b4a4727609f8",
     "title": "Driving organizational sustainability with platform engineering [DEV2173G]",
     "labels": ["In-person", "Recorded"],
     "description": "Organizations face consequences when prioritizing short-term gains over long-term ones, leading to tech debt, retention issues, and business risk. Platform engineering drives organizational sustainability through DevOps principles, support systems, and a standardized architecture. In this session, we'll cover: 1) DevOps sociotechnical principles 2) Community-driven support systems 3) Platform architecture, its design tensions, and a framework for building robust developer experiences We'll dive into each of these components through the lens of the feature development cycle.",
@@ -99,21 +86,16 @@
         "name": "Lesley Cordero",
         "role": "Staff Software Engineer, Tech Lead",
         "company": "The New York Times",
-        "_id": { "$oid": "65448ce8a720b4a4727609f9" }
+        "_id": "65448ce8a720b4a4727609f9"
       }
     ],
     "tracks": ["Developer Experience"],
     "type": "General Session",
     "level": "Level 200: Intermediate",
-    "schedule": { "day": "2023-11-08", "time": "10:30 AM – 11:10 AM PST" },
-    "likedBy": { "654dcd3dc92d8d352d3d035a": true },
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1698991336976" } },
-    "updatedAt": { "$date": { "$numberLong": "1700557991879" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "10:30 AM – 11:10 AM PST" }
   },
   {
-    "_id": { "$oid": "65448d81a720b4a472760a13" },
+    "_id": "65448d81a720b4a472760a13",
     "title": "Passwordless deployments with GitHub Actions to the cloud [DEV1972G]",
     "labels": ["In-person", "Recorded"],
     "description": "Using secrets and certificates for system-to-system communication often proves cumbersome and prone to leakage. Why bother with credentials when there is a more secure and easy approach, like going passwordless? In this talk, you will learn how to leverage the power of OpenID Connect to authenticate your GitHub Actions when deploying to Microsoft Azure. This session will delve into the fundamentals of OpenID Connect and its integration with GitHub Actions. Discover practical techniques to organize workflows effectively at an organizational level, implement federated credentials, and facilitate token exchange.",
@@ -122,21 +104,16 @@
         "name": "Radoslav Gatev",
         "role": "Founder & Principal Cloud Solution Architect",
         "company": "Verityware",
-        "_id": { "$oid": "65448d81a720b4a472760a14" }
+        "_id": "65448d81a720b4a472760a14"
       }
     ],
     "tracks": ["Developer Experience"],
     "type": "General Session",
     "level": "Level 300: Advanced",
-    "schedule": { "day": "2023-11-08", "time": "10:30 AM - 11:10 AM PST" },
-    "likedBy": { "654dcd3dc92d8d352d3d035a": true },
-    "scheduledBy": { "654dcd3dc92d8d352d3d035a": true },
-    "createdAt": { "$date": { "$numberLong": "1698991489463" } },
-    "updatedAt": { "$date": { "$numberLong": "1700560002942" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "10:30 AM - 11:10 AM PST" }
   },
   {
-    "_id": { "$oid": "65448e13a720b4a472760a16" },
+    "_id": "65448e13a720b4a472760a16",
     "title": "The future state of APIs [DEV2784S]",
     "labels": ["In-person", "Recorded"],
     "description": "APIs are poised for a transformative future, evolving to meet the needs of our interconnected, data-driven world. With IoT, AI, and distributed systems proliferation, APIs will be pivotal for seamless tech communication. Expect advancements in API automation, AI-driven management, and robust security. Standardization and growing ecosystems will boost collaboration. APIs aren't just innovation enablers; they're the backbone of an efficient, agile, global economy.",
@@ -145,21 +122,16 @@
         "name": "Ankit Sobti",
         "role": "CTO",
         "company": "Postman",
-        "_id": { "$oid": "65448e13a720b4a472760a17" }
+        "_id": "65448e13a720b4a472760a17"
       }
     ],
     "tracks": ["Developer Experience"],
     "type": "Studio Session",
     "level": "Level 100: Introductory",
-    "schedule": { "day": "2023-11-08", "time": "10:55 AM — 11:15 AM PST" },
-    "likedBy": { "654dcd3dc92d8d352d3d035a": true },
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1698991635722" } },
-    "updatedAt": { "$date": { "$numberLong": "1700560018924" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "10:55 AM — 11:15 AM PST" }
   },
   {
-    "_id": { "$oid": "65448f12a720b4a472760a19" },
+    "_id": "65448f12a720b4a472760a19",
     "title": "Redefining the next decade of cybersecurity: AI-powered security built to empower developers [SEC2732M]",
     "labels": ["In-person", "Livestream"],
     "description": "AI is ushering in a new era for security, presenting some of the most promising opportunities to secure code from the start. Join us as we explore GitHub Advanced Security’s mission in this new paradigm, and how AI-powered security solutions will position developers as leaders in a global security strategy. We’ll reflect on how GitHub helped make a positive impact in application security over the last year, shed light on what’s next, and explore the intricate dynamics at play as AI becomes a cornerstone feature in the industry. Together, we'll redefine the concept of shifting security left and shape the security landscape for the next decade.",
@@ -168,33 +140,28 @@
         "name": "Asha Chakrabarty",
         "role": "VP, Product Management",
         "company": "GitHub",
-        "_id": { "$oid": "65448f12a720b4a472760a1a" }
+        "_id": "65448f12a720b4a472760a1a"
       },
       {
         "name": "Mike Hanley",
         "role": "Chief Security Officer and SVP of Engineering",
         "company": "GitHub",
-        "_id": { "$oid": "65448f12a720b4a472760a1b" }
+        "_id": "65448f12a720b4a472760a1b"
       },
       {
         "name": "Robert Daugherty",
         "role": "Chief Security Officer",
         "company": "Sierra Nevada Corporation (SNC)",
-        "_id": { "$oid": "65448f12a720b4a472760a1c" }
+        "_id": "65448f12a720b4a472760a1c"
       }
     ],
     "tracks": ["AI", "Security"],
     "type": "Main Stage",
     "level": "Level 100: Introductory",
-    "schedule": { "day": "2023-11-08", "time": "11:15 AM — 11:45 AM PST" },
-    "likedBy": {},
-    "scheduledBy": { "654dcd3dc92d8d352d3d035a": true },
-    "createdAt": { "$date": { "$numberLong": "1698991890142" } },
-    "updatedAt": { "$date": { "$numberLong": "1700571302611" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "11:15 AM — 11:45 AM PST" }
   },
   {
-    "_id": { "$oid": "65448fc6a720b4a472760a1e" },
+    "_id": "65448fc6a720b4a472760a1e",
     "title": "Building mindfully: Managing scale and responsibility in AI tool development [AI2840G]",
     "labels": ["In-person", "Recorded"],
     "description": "As AI and LLMs continue to gain prominence in automating various aspects of programming, it becomes imperative for us, as responsible innovators, to not only be able to scale our generative AI tools, but also make sure that they are created and used with a significant focus on doing what's right. This session aims to explore the critical intersection of AI, scale, and ethics, offering valuable insights into the methods and strategies that we, at GitHub, are actively implementing to ensure the responsible and scalable development of GitHub Copilot.",
@@ -203,27 +170,22 @@
         "name": "Jen Agarwal",
         "role": "Senior Product Manager",
         "company": "GitHub",
-        "_id": { "$oid": "65448fc6a720b4a472760a1f" }
+        "_id": "65448fc6a720b4a472760a1f"
       },
       {
         "name": "Trevor Carnahan",
         "role": "Principal Engineer",
         "company": "GitHub",
-        "_id": { "$oid": "65448fc6a720b4a472760a20" }
+        "_id": "65448fc6a720b4a472760a20"
       }
     ],
     "tracks": ["AI"],
     "type": "General Session",
     "level": "Level 100: Introductory",
-    "schedule": { "day": "2023-11-08", "time": "11:30 AM — 12:10 PM PST" },
-    "likedBy": { "654dcd3dc92d8d352d3d035a": true },
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1698992070095" } },
-    "updatedAt": { "$date": { "$numberLong": "1699677852004" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "11:30 AM — 12:10 PM PST" }
   },
   {
-    "_id": { "$oid": "6544908ba720b4a472760a22" },
+    "_id": "6544908ba720b4a472760a22",
     "title": "Navigating Liberty Mutual's seamless journey to GitHub Enterprise Cloud [DEV2540G]",
     "labels": ["In-person", "Recorded"],
     "description": "Learn about Liberty Mutual's seamless migration from four self-hosted, globally disparate code management platforms to GitHub Enterprise Cloud over the course of 2022. Throughout the session, Liberty Mutual's Secure DevOps team will review why this migration was so important. They'll also cover how we made it happen without disrupting 5,000 engineers and 33,000 migrated repositories—and what's on the horizon to achieve Liberty Mutual's vision of a single, globally available, and highly resilient software delivery platform.",
@@ -232,27 +194,22 @@
         "name": "Matthew Chieco",
         "role": "Principal Software Engineer",
         "company": "Liberty Mutual",
-        "_id": { "$oid": "6544908ba720b4a472760a23" }
+        "_id": "6544908ba720b4a472760a23"
       },
       {
         "name": "Jeanyhwh Desulme",
         "role": "Solutions Engineerr",
         "company": "Liberty Mutual",
-        "_id": { "$oid": "6544908ba720b4a472760a24" }
+        "_id": "6544908ba720b4a472760a24"
       }
     ],
     "tracks": ["Developer Experience"],
     "type": "General Session",
     "level": "Level 200: Intermediate",
-    "schedule": { "day": "2023-11-08", "time": "11:30 AM — 12:10 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1698992267261" } },
-    "updatedAt": { "$date": { "$numberLong": "1698992267261" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "11:30 AM — 12:10 PM PST" }
   },
   {
-    "_id": { "$oid": "65449113a720b4a472760a26" },
+    "_id": "65449113a720b4a472760a26",
     "title": "Coding with an AI pair programmer: Getting started with GitHub Copilot [AI2780S]",
     "labels": ["Livestream"],
     "description": "The explosion of programming languages and frameworks has ironically made development more difficult. Developers need to remember different syntax across different environments, and are finding that a large percentage of code they write is tedious. Acting as an AI pair programmer, GitHub Copilot can help a developer offload those tasks and instead focus on the bigger picture. Let's explore how to get started with GitHub Copilot, its capabilities, and how to make the most out of the tool.",
@@ -261,21 +218,16 @@
         "name": "Christopher Harrison",
         "role": "Senior Developer Advocate",
         "company": "GitHub",
-        "_id": { "$oid": "65449113a720b4a472760a27" }
+        "_id": "65449113a720b4a472760a27"
       }
     ],
     "tracks": ["AI"],
     "type": "Studio Session",
     "level": "Level 100: Introductory",
-    "schedule": { "day": "2023-11-08", "time": "11:55 AM - 12:25 PM PST" },
-    "likedBy": {},
-    "scheduledBy": { "654dcd3dc92d8d352d3d035a": true },
-    "createdAt": { "$date": { "$numberLong": "1698992403958" } },
-    "updatedAt": { "$date": { "$numberLong": "1699692394332" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "11:55 AM - 12:25 PM PST" }
   },
   {
-    "_id": { "$oid": "6544ae18a720b4a472760aad" },
+    "_id": "6544ae18a720b4a472760aad",
     "title": "Building GitHub Advanced Security in the Age of AI [SEC1499G]",
     "labels": ["In-person", "Recorded"],
     "description": "Get a behind-the-scenes look into how GitHub builds our security products and preview what's on the horizon that answers common challenges organizations face when deploying, scaling, and running application security programs. Hear how we apply AI to our security products and strategically focus on initiatives that improve your security outcomes. Takeaway an understanding of how GitHub responds to your key challenges in driving security at scale and the opportunity AI presents to your security programs.",
@@ -284,27 +236,22 @@
         "name": "Nick Liffen",
         "role": "Director, GitHub Advanced Security",
         "company": "GitHub",
-        "_id": { "$oid": "6544ae18a720b4a472760aae" }
+        "_id": "6544ae18a720b4a472760aae"
       },
       {
         "name": "Niroshan Rajadurai",
         "role": "Sr Director, GTM Strategy for AI, DevSecOps & Application Security Products",
         "company": "GitHub",
-        "_id": { "$oid": "6544ae18a720b4a472760aaf" }
+        "_id": "6544ae18a720b4a472760aaf"
       }
     ],
     "tracks": ["AI", "Security"],
     "type": "General Session",
     "level": "Level 200: Intermediate",
-    "schedule": { "day": "2023-11-08", "time": "12:30 PM — 1:10 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1698999832716" } },
-    "updatedAt": { "$date": { "$numberLong": "1699692401783" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "12:30 PM — 1:10 PM PST" }
   },
   {
-    "_id": { "$oid": "6544ae93a720b4a472760ab1" },
+    "_id": "6544ae93a720b4a472760ab1",
     "title": "Collaborating effectively using GitHub [DEV1210G]",
     "labels": ["In-person", "Recorded"],
     "description": "A lot of teams work on GitHub and use only a small part of the available features. In this session, Rob will show you how to use GitHub to handle team processes like on-boarding a new team member (while skipping the boring text documents or wiki pages), setting up daily scrums, and even sending out updates of team accomplishments at the end of your sprint. We'll explain how to set up an effective team environment using GitHub, with demos from open source repositories that'll help you get started right away!",
@@ -313,21 +260,16 @@
         "name": "Ros Bos",
         "role": "DevOps Consultant / GitHub Trainer",
         "company": "Xebia",
-        "_id": { "$oid": "6544ae93a720b4a472760ab2" }
+        "_id": "6544ae93a720b4a472760ab2"
       }
     ],
     "tracks": ["Developer Experience"],
     "type": "General Session",
     "level": "Level 100: Introductory",
-    "schedule": { "day": "2023-11-08", "time": "12:30 PM — 1:10 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1698999955757" } },
-    "updatedAt": { "$date": { "$numberLong": "1699692400049" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "12:30 PM — 1:10 PM PST" }
   },
   {
-    "_id": { "$oid": "6544af13a720b4a472760ab4" },
+    "_id": "6544af13a720b4a472760ab4",
     "title": "How GitHub operationalizes AI for teamwide collaboration and productivity [DEV2834M]",
     "labels": ["In-person", "Livestream"],
     "description": "As the home for all software developers, it’s not surprising that GitHub runs like most other organizations today: using software across its own operations. Join GitHub COO Kyle Daigle for a discussion around how GitHub scaled its learnings deploying and offering GitHub Copilot–the world’s first AI pair programmer–to now applying AI across GitHub. As focal points, Kyle will detail how GitHub uses AI to improve the developer experience and support customers today and tomorrow.",
@@ -336,21 +278,16 @@
         "name": "Kyle Daigle",
         "role": "COO",
         "company": "GitHub",
-        "_id": { "$oid": "6544af13a720b4a472760ab5" }
+        "_id": "6544af13a720b4a472760ab5"
       }
     ],
     "tracks": ["AI", "Developer Experience"],
     "type": "Main Stage",
     "level": "Level 100: Introductory",
-    "schedule": { "day": "2023-11-08", "time": "12:45 PM — 1:25 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1699000083473" } },
-    "updatedAt": { "$date": { "$numberLong": "1699692398601" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "12:45 PM — 1:25 PM PST" }
   },
   {
-    "_id": { "$oid": "6544aff2a720b4a472760ab7" },
+    "_id": "6544aff2a720b4a472760ab7",
     "title": "Safe but flexible: the DevEx-based code management culture at Mercado Libre [DEV2569G]",
     "labels": ["In-person", "Recorded"],
     "description": "Join us at Mercadolibre on our journey to build a platform-based code management culture. From repository creation to the final deployment that governs over 30,000 micro-services and supports over 15,000 developers, all in a highly safe and productive environment. We'll discuss key insights, including the challenges we faced, the solutions we implemented, the best practices we adopted, and how we use GitHub to push the success of our vision.",
@@ -359,27 +296,22 @@
         "name": "Javier Cardoso",
         "role": "Tech Sr. Manager",
         "company": "Mercado Libre",
-        "_id": { "$oid": "6544aff2a720b4a472760ab8" }
+        "_id": "6544aff2a720b4a472760ab8"
       },
       {
         "name": "Erik Arcos",
         "role": "Software Project Lead",
         "company": "Mercado Libre",
-        "_id": { "$oid": "6544aff2a720b4a472760ab9" }
+        "_id": "6544aff2a720b4a472760ab9"
       }
     ],
     "tracks": ["AI", "Developer Experience", "Security"],
     "type": "General Session",
     "level": "Level 200: Intermediate",
-    "schedule": { "day": "2023-11-08", "time": "1:30 PM — 2:10 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1699000306439" } },
-    "updatedAt": { "$date": { "$numberLong": "1699000306439" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "1:30 PM — 2:10 PM PST" }
   },
   {
-    "_id": { "$oid": "6544b116a720b4a472760ac0" },
+    "_id": "6544b116a720b4a472760ac0",
     "title": "Quickly build and deploy OpenAI apps on Azure, infused with your own data [DEV2769M]",
     "labels": ["In-person", "Livestream"],
     "description": "Unlock the world of generative AI applications and walk away with your own AI app ready to deploy. Learn to build and deploy an AI-infused, cloud-native application using VS Code, Azure Developer CLI, and GitHub Actions with Azure OpenAI. We'll walk you through a streamlined workflow that starts with GitHub and extends to Azure cloud deployment. See how this end-to-end toolkit simplifies development and offers robust testing and monitoring. We’ll also show you how to test your app using Playwright. Come learn how GitHub and Azure can help you accelerate AI-infused application development.",
@@ -388,39 +320,34 @@
         "name": "Pamela Fox",
         "role": "Cloud Advocate in Python",
         "company": "Microsoft",
-        "_id": { "$oid": "6544b116a720b4a472760ac1" }
+        "_id": "6544b116a720b4a472760ac1"
       },
       {
         "name": "Savannah Ostrowski",
         "role": "Senior Product Manager",
         "company": "Microsoft",
-        "_id": { "$oid": "6544b116a720b4a472760ac2" }
+        "_id": "6544b116a720b4a472760ac2"
       },
       {
         "name": "Mandy Whaley",
         "role": "Partner Director",
         "company": "Azure Dev Tools, Microsoft",
-        "_id": { "$oid": "6544b116a720b4a472760ac3" }
+        "_id": "6544b116a720b4a472760ac3"
       },
       {
         "name": "Shayne Boyer",
         "role": "Principal PM Manager",
         "company": "Microsoft",
-        "_id": { "$oid": "6544b116a720b4a472760ac4" }
+        "_id": "6544b116a720b4a472760ac4"
       }
     ],
     "tracks": ["Developer Experience"],
     "type": "Main Stage",
     "level": "Level 100: Introductory",
-    "schedule": { "day": "2023-11-08", "time": "1:45 PM — 2:25 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1699000598440" } },
-    "updatedAt": { "$date": { "$numberLong": "1699000598440" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "1:45 PM — 2:25 PM PST" }
   },
   {
-    "_id": { "$oid": "6544b91ab36cfb0a1e8e9d51" },
+    "_id": "6544b91ab36cfb0a1e8e9d51",
     "title": "Building at scale: Meta PyTorch's migration from CircleCI to GitHub Actions [DEV2879S]",
     "labels": ["Livestream"],
     "description": "Join Eli Uriegas, Engineering Manager at Meta Pytorch, as he discusses why Meta Pytorch chose to migrate its CI from CircleCI to GitHub Actions in order to manage its costs more efficiently and maximize collaboration with other teams by creating reusable workflows.",
@@ -429,21 +356,16 @@
         "name": "Eli Uriegas",
         "role": "Engineering Manager",
         "company": "Meta",
-        "_id": { "$oid": "6544b91ab36cfb0a1e8e9d52" }
+        "_id": "6544b91ab36cfb0a1e8e9d52"
       }
     ],
     "tracks": ["Developer Experience"],
     "type": "Studio Session",
     "level": "Level 200: Intermediate",
-    "schedule": { "day": "2023-11-08", "time": "2:25 PM — 2:45 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1699002652723" } },
-    "updatedAt": { "$date": { "$numberLong": "1699002652723" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "2:25 PM — 2:45 PM PST" }
   },
   {
-    "_id": { "$oid": "6544b9beb36cfb0a1e8e9d54" },
+    "_id": "6544b9beb36cfb0a1e8e9d54",
     "title": "Customizing the GitHub Copilot experience for your enterprise [AI2843G]",
     "labels": ["In-person", "Recorded"],
     "description": "The release of GitHub Copilot defined a new paradigm in AI-powered developer tools. Since its inception, GitHub Copilot provided developers with the ability to increase their productivity. However, there were limitations around personalization present. Join this session to learn about how GitHub Copilot can provide a customized solution. We will introduce the new initiatives around customization, the challenges, opportunities, and what a customized GitHub Copilot can do to address your enterprise use cases.",
@@ -452,27 +374,22 @@
         "name": "April Edwards",
         "role": "Senior Developer Advocate",
         "company": "GitHub",
-        "_id": { "$oid": "6544b9beb36cfb0a1e8e9d55" }
+        "_id": "6544b9beb36cfb0a1e8e9d55"
       },
       {
         "name": "Trevor Carnahan",
         "role": "Principal Engineer",
         "company": "GitHub Copilot, GitHub",
-        "_id": { "$oid": "6544b9beb36cfb0a1e8e9d56" }
+        "_id": "6544b9beb36cfb0a1e8e9d56"
       }
     ],
     "tracks": ["Developer Experience"],
     "type": "General Session",
     "level": "Level 200: Intermediate",
-    "schedule": { "day": "2023-11-08", "time": "2:30 PM — 3:10 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1699002814265" } },
-    "updatedAt": { "$date": { "$numberLong": "1699002814265" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "2:30 PM — 3:10 PM PST" }
   },
   {
-    "_id": { "$oid": "6544ba41b36cfb0a1e8e9d58" },
+    "_id": "6544ba41b36cfb0a1e8e9d58",
     "title": "Empowering devs with AI: How Shopify made GitHub Copilot core to its culture [AI2857M]",
     "labels": ["In-person", "Livestream"],
     "description": "Join Farhan Thawar, Shopify’s VP and Head of Engineering, as he discusses how Shopify, an e-commerce platform that builds at incredible scale, is unlocking the potential of its developers with AI tooling like GitHub Copilot. Learn strategies to increase developer empowerment with the adoption of AI tooling, measure the success of your GitHub Copilot adoption, and prepare for the downstream effects of increased developer productivity.",
@@ -481,21 +398,16 @@
         "name": "Farhan Thawar",
         "role": "Head of Engineering",
         "company": "Shopify",
-        "_id": { "$oid": "6544ba41b36cfb0a1e8e9d59" }
+        "_id": "6544ba41b36cfb0a1e8e9d59"
       }
     ],
     "tracks": ["AI"],
     "type": "Main Stage",
     "level": "Level 200: Intermediate",
-    "schedule": { "day": "2023-11-08", "time": "2:45 PM — 3:25 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1699002945167" } },
-    "updatedAt": { "$date": { "$numberLong": "1699002945167" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "2:45 PM — 3:25 PM PST" }
   },
   {
-    "_id": { "$oid": "6544bae3b36cfb0a1e8e9d5b" },
+    "_id": "6544bae3b36cfb0a1e8e9d5b",
     "title": "Dependencies wrangled: proven practices to secure the software supply chain [SEC2862G]",
     "labels": ["In-person", "Recorded"],
     "description": "Zero days. Executive orders. Oceans of alerts. But it’s not all bad news! Advances in coverage, relevance, and automation make it easier than ever to wrangle your dependencies once and for all. In this session, GitHub experts will show you how to silence the noise, automate manual tasks, and execute remediation with confidence. Then, our friends at Anchore will share how they reduced false positives in Grype by 80%, and how you can also level up your supply chain security game with GitHub’s free, native resources. Finally, we share a sneak peek at new capabilities that free up more time to write great code.",
@@ -504,23 +416,18 @@
         "name": "Justin Hutchings",
         "role": "Senior Director of Product Management",
         "company": "GitHub",
-        "_id": { "$oid": "6544bae3b36cfb0a1e8e9d5c" }
+        "_id": "6544bae3b36cfb0a1e8e9d5c"
       },
       {
         "name": "Christopher Angelo Phillips",
         "role": "Software Engineer",
         "company": "Anchore",
-        "_id": { "$oid": "6544bae3b36cfb0a1e8e9d5d" }
+        "_id": "6544bae3b36cfb0a1e8e9d5d"
       }
     ],
     "tracks": ["Security"],
     "type": "General Session",
     "level": "Level 100: Introductory",
-    "schedule": { "day": "2023-11-08", "time": "3:30 PM — 4:10 PM PST" },
-    "likedBy": {},
-    "scheduledBy": {},
-    "createdAt": { "$date": { "$numberLong": "1699003107885" } },
-    "updatedAt": { "$date": { "$numberLong": "1699692386599" } },
-    "__v": { "$numberInt": "0" }
+    "schedule": { "day": "2023-11-08", "time": "3:30 PM — 4:10 PM PST" }
   }
 ]
