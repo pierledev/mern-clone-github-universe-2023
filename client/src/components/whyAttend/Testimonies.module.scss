@@ -1,0 +1,38 @@
+.testimonies {
+  &__container {
+    margin-top: 4rem;
+    display: grid;
+    gap: 1rem;
+    max-width: 650px;
+
+    h2 {
+      font-size: 2.25rem;
+      font-weight: 600;
+      letter-spacing: -1px;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--color-border);
+      margin-bottom: 2rem;
+
+      @media screen and (min-width: 768px) {
+        font-size: 2.75rem;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      max-width: 660px;
+    }
+  }
+
+  &__group {
+    display: grid;
+    gap: 2.25rem;
+
+    q {
+      font-size: 1.375rem;
+      line-height: 1.5;
+      font-style: italic;
+      opacity: 0.9;
+      text-align: justify;
+    }
+  }
+}

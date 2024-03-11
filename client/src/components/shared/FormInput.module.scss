@@ -1,0 +1,35 @@
+.formInput {
+  display: grid;
+  gap: 0.75rem;
+
+  label {
+    display: block;
+    text-transform: capitalize;
+
+    &:has(+ input[required])::after {
+      content: '*';
+      padding-left: 0.25rem;
+      color: rgb(250, 83, 83);
+      font-size: 1.25rem;
+    }
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    height: 46px;
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 0.25rem 1rem;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.3);
+      letter-spacing: 0.5px;
+    }
+
+    &[type='password'] {
+      font-size: 1.5rem;
+    }
+  }
+}

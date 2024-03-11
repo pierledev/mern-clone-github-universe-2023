@@ -1,0 +1,42 @@
+.faqItems {
+  h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 2rem;
+    color: var(--color-purple);
+    
+    @media screen and (min-width: 375px) {
+      font-size: 2.25rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 2.75rem;
+    }
+  }
+
+  p {
+    line-height: 1.6;
+    color: var(--color-muted);
+    text-align: justify;
+  }
+
+  &__qnas {
+    display: grid;
+    gap: 2.75rem;
+  }
+
+  &__qna {
+    display: grid;
+    gap: 1rem;
+
+    h3 {
+      font-size: 1.5rem;
+      letter-spacing: -0.24px;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+  }
+}

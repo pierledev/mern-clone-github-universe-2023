@@ -1,0 +1,13 @@
+.faqGroup {
+  margin-top: 3rem;
+
+  &__container {
+    display: grid;
+    gap: 8rem;
+    max-width: 650px;
+
+    @media screen and (min-width: 768px) {
+      max-width: 660px;
+    }
+  }
+}

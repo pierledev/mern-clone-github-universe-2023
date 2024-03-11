@@ -1,0 +1,29 @@
+.filterOption {
+  border-bottom: 1px solid var(--color-border);
+
+  button {
+    text-transform: capitalize;
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+
+  &__options {
+    gap: 0.75rem;
+    padding-bottom: 1rem;
+    display: none;
+
+    &--active {
+      display: grid;
+    }
+  }
+
+  &__option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

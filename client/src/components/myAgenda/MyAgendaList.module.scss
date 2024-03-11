@@ -1,0 +1,51 @@
+.myAgendaList {
+  margin-top: 3rem;
+
+  &:nth-of-type(3) {
+    margin-bottom: 8rem;
+  }
+
+  &__container {
+    display: grid;
+    gap: 1.5rem;
+
+    h2 {
+      font-weight: 600;
+      font-size: 1.75rem;
+      text-transform: capitalize;
+    }
+
+    h3 {
+      font-synthesis-small-caps: 1.5rem;
+      line-height: 1.25;
+      font-size: 1.5rem;
+      text-align: left;
+      font-weight: 500;
+      letter-spacing: -0.24px;
+      line-height: 1.4;
+      color: var(--color-primary);
+    }
+  }
+
+  &__list {
+    display: grid;
+    gap: 1.5rem;
+
+    @media screen and (min-width: 375px) {
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+  }
+
+  &__empty {
+    color: var(--color-muted);
+
+    & a {
+      color: var(--color-primary);
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

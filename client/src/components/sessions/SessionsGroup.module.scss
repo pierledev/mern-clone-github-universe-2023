@@ -1,0 +1,26 @@
+.sessionsGroup {
+  display: grid;
+  gap: 1.5rem;
+
+  &__sessions {
+    display: grid;
+    gap: 2rem;
+  }
+
+  &__results {
+    color: var(--color-muted);
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 5.5rem;
+  }
+
+  @media screen and (min-width: 1012px) {
+    grid-column: 5/13;
+    gap: 1rem;
+  }
+}

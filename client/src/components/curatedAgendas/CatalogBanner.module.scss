@@ -1,0 +1,24 @@
+.catalogBanner {
+  margin-bottom: 3.5rem;
+
+  &__banner {
+    gap: 3rem;
+
+    img {
+      @media screen and (min-width: 1012px) {
+        padding-right: 2rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        object-position: center right;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      display: grid;
+    }
+
+    @media screen and (min-width: 1012px) {
+      grid-template-columns: 1.5fr 1.75fr;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.banner {
+  padding-right: 0;
+  padding-left: 0;
+  height: 170px;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+  }
+  
+  @media screen and (min-width: 768px) {
+    height: 228px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+}

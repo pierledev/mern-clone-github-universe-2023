@@ -1,0 +1,144 @@
+.featuredSpeakers {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 6.5rem;
+
+  &__container {
+    display: grid;
+    gap: 3rem;
+
+    @media screen and (min-width: 768px) {
+      gap: 3.5rem;
+    }
+  }
+
+  &__copy {
+    display: grid;
+    gap: 1rem;
+
+    h2 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      line-height: 1.2;
+      letter-spacing: -0.02rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: 1fr auto;
+      align-items: center;
+    }
+  }
+
+  &__speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 7% auto 7% 7% auto 7% 7% auto 7% 7%;
+    column-gap: 1.75rem;
+    grid-template-areas:
+      'thomas .'
+      'thomas shanea'
+      '. shanea'
+      'jay .'
+      'jay quiana'
+      '. quiana'
+      'shuyin .'
+      'shuyin simon'
+      '. simon'
+      'brittany .'
+      'brittany arthur'
+      '. arthur';
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 12% auto 12% 12%;
+      column-gap: 2rem;
+      grid-template-areas:
+        'thomas . shanea .'
+        'thomas shuyin shanea simon'
+        '. shuyin . simon'
+        'jay . quiana .'
+        'jay brittany quiana arthur'
+        '. brittany . arthur';
+    }
+
+    @media screen and (min-width: 1012px) {
+      column-gap: 3rem;
+    }
+  }
+
+  &__speaker {
+    border-radius: 0.75rem 0.75rem 0 0;
+    overflow: hidden;
+
+    a {
+      display: block;
+    }
+
+    &-img-container {
+      img {
+        position: relative;
+        display: block;
+        border-radius: 0.75rem;
+        object-fit: cover;
+        filter: grayscale(100%);
+        background-blend-mode: overlay;
+        transition: 0.4s linear, transform 1.2s cubic-bezier(0.45, 0.13, 0.1, 1);
+      }
+    }
+
+    &-img-container:hover {
+      img {
+        filter: grayscale(0);
+      }
+    }
+
+    &:first-child {
+      grid-area: thomas;
+    }
+
+    &:nth-child(2) {
+      grid-area: jay;
+    }
+
+    &:nth-child(3) {
+      grid-area: shuyin;
+    }
+
+    &:nth-child(4) {
+      grid-area: brittany;
+    }
+
+    &:nth-child(5) {
+      grid-area: shanea;
+    }
+
+    &:nth-child(6) {
+      grid-area: quiana;
+    }
+
+    &:nth-child(7) {
+      grid-area: simon;
+    }
+
+    &:last-child {
+      grid-area: arthur;
+    }
+  }
+
+  &__profile {
+    display: grid;
+    gap: 0.25rem;
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: var(--color-muted);
+    }
+  }
+}

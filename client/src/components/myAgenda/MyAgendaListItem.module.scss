@@ -1,0 +1,97 @@
+.myAgendaListItem {
+  display: grid;
+
+  article {
+    background-color: var(--color-gray);
+    border-radius: 20px;
+    padding: 1rem;
+    color: var(--color-muted);
+    display: grid;
+
+    @media screen and (min-width: 768px) {
+      padding: 2rem;
+    }
+  }
+
+  header {
+    display: grid;
+    gap: 1.25rem;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      button {
+        color: var(--color-purple);
+      }
+    }
+
+    button {
+      font-size: 1.5rem;
+      color: var(--color-primary);
+
+      &:hover {
+        text-decoration: underline;
+        opacity: 0.75;
+      }
+    }
+  }
+
+  footer {
+    font-weight: 600;
+    color: var(--color-primary);
+    display: grid;
+    justify-items: left;
+    gap: 2rem;
+    align-self: end;
+
+    div {
+      display: grid;
+      gap: 0.5rem;
+    }
+
+    p:first-child {
+      color: var(--color-purple);
+    }
+
+    button {
+      height: 44px;
+      justify-content: flex-start;
+      padding: 0;
+      outline: none;
+      width: auto;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: rgb(219, 66, 66);
+      height: auto;
+
+      &:hover {
+        border: 2px solid transparent;
+        color: rgb(236, 102, 102);
+      }
+    }
+  }
+
+  &__label {
+    color: var(--color-purple);
+    border: 1px solid var(--color-purple);
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 0.25rem 0.5rem;
+  }
+
+  &__body {
+    margin: 0.5rem 0 2rem;
+    line-height: 1.6;
+    color: var(--color-muted);
+    font-style: italic;
+  }
+}

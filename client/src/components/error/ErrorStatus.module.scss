@@ -1,0 +1,40 @@
+.errorStatus {
+  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
+    url('../../assets/media/hero-video.webp') center center/cover no-repeat;
+
+  &__container {
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+
+  &__copy {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  h1 {
+    font-size: 7rem;
+  }
+
+  p {
+    line-height: 1.5;
+    color: var(--color-muted);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  img {
+    display: block;
+    max-width: 180px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__cta {
+    max-width: 230px;
+  }
+}
