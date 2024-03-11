@@ -32,10 +32,6 @@ app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/sessions', sessionsRouter);
 app.use('/api/v1/speakers', speakersRouter);
 
-app.get('/', (req, res) =>
-  res.status(200).send('<h2>MERN GitHub Universe 2023 API</h2>')
-);
-
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.get('*', (req, res) => {
